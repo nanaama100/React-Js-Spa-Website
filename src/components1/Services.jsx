@@ -18,7 +18,7 @@ function Services() {
     <div>
         <div>
             <h3 id='SpaHeading'>OUR SERVICES</h3>
-            <img src='/public/Images/BackgroundNew1.jpg' alt='' className='AboutBackgroundImage'/>
+            <img src='/Images/BackgroundNew1.jpg' alt='' className='AboutBackgroundImage'/>
 
             {/* this section of the code is for the massage section */}
             <div className='ServiceSection'>
