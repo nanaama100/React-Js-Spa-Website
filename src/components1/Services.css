@@ -1,0 +1,256 @@
+@media screen and (min-width: 1024px) {
+    .AboutBackgroundImage{
+        width: 100%;
+        margin-top: -130px;
+    }
+    
+    #SpaHeading{
+        position: absolute;
+        left: 500px;
+        margin-top: 200px;
+        font-size: 3em;
+        font-family: "Dancing Script", cursive;
+        font-weight: 700;
+        font-style: normal;
+        color: #fff;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .ServiceSection{
+        background-color: #fff;
+    }
+
+    #MassageHeading{
+        font-family: "Playfair Display SC", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5em;
+        text-align: center;
+        padding-top: 90px;
+    }
+
+    .card{
+        margin: 20px;
+        border-color: grey;
+        box-shadow: 3px 3px 9px #000;
+    }
+
+    .ServiceCartButton{
+        position: absolute;
+        padding: 5px 8px;
+        border: unset;
+        color: #fff;
+        z-index: 1;
+        background: #f9a392;
+        position: relative;
+        font-size: 17px;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms;
+        overflow: hidden;
+        font-family: 'Courier New', Courier, monospace;
+    }
+       
+    .ServiceCartButton::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        /* border-radius: 15px; */
+        background-color: #666;
+        z-index: -1;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms
+       }
+       
+    .ServiceCartButton:hover {
+        color: #e8e8e8;
+       }
+       
+    .ServiceCartButton:hover::before {
+        width: 100%;
+       }
+
+
+
+
+    .ContyMassageCards{
+        margin-top: 50px;
+    }
+
+    #TreatmentDivi{
+        margin-top: 50px;
+        background: url(https://magicspamassagecenter.com/wp-content/uploads/2022/09/Magic-Spa-Massage-Center-min-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        background-size: cover;
+        height: 70vh;
+        background-attachment: fixed;
+    }
+
+    #CoverTreatmentDivi{
+        background-color: rgba(0,0,0,0.5);
+        height: 70vh;
+    }
+
+    #ParagrapghMassage{
+        color: #fff;
+        font-size: 25px;
+        width: 1000px;
+        text-align: center;
+        padding-top: 100px;
+        padding-left: 270px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        font-family: "DM Sans", sans-serif;
+    }
+
+
+    /* this section of the code is for the therapy section */
+#Therapy{
+    background-color: #ededed;
+    height: 220vh;
+}
+
+#TherapyHeadText{
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 90px;
+}
+
+
+    /* this section of the code is for the treatment section */
+#TreatmentHeadText{
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 90px;   
+}
+
+}    
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .ServiceSection{
+        margin-top: 50px;
+    }
+
+    #MassageHeading{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .card{
+        margin: 20px;
+        border-color: grey;
+        box-shadow: 3px 3px 9px #000;
+    }
+
+    .ServiceCartButton{
+        position: absolute;
+        padding: 5px 8px;
+        border: unset;
+        color: #fff;
+        z-index: 1;
+        background: #f9a392;
+        position: relative;
+        font-size: 17px;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms;
+        overflow: hidden;
+        font-family: 'Courier New', Courier, monospace;
+    }
+       
+    .ServiceCartButton::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        /* border-radius: 15px; */
+        background-color: #666;
+        z-index: -1;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms
+       }
+       
+    .ServiceCartButton:hover {
+        color: #e8e8e8;
+       }
+       
+    .ServiceCartButton:hover::before {
+        width: 100%;
+       }
+
+    .ContyMassageCards{
+        margin-top: 50px;
+    }
+
+    #TreatmentDivi{
+        margin-top: 50px;
+        background: url(https://magicspamassagecenter.com/wp-content/uploads/2022/09/Magic-Spa-Massage-Center-min-1.jpg);
+        background-repeat: no-repeat;
+        width: 100%;   
+        background-attachment: fixed;
+    }
+
+    #CoverTreatmentDivi{
+        background-color: rgba(0,0,0,0.5);
+        height: 70vh;
+    }
+
+    #ParagrapghMassage{
+        color: #fff;
+        font-size: 20px;
+        width: 350px;
+        text-align: center;
+        padding-top: 70px;
+        padding-left: 15px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        font-family: "DM Sans", sans-serif;
+    }
+
+
+    /* this section of the code is for the therapy section */
+#Therapy{
+    background-color: #ededed;
+}
+
+#TherapyHeadText{
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 90px;
+}
+
+    /* this section of the code is for the treatment section */
+#TreatmentHeadText{
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 90px;   
+}
+
+
+}

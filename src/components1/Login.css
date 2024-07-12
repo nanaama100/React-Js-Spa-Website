@@ -1,0 +1,20 @@
+.LoggingImage{
+    background-image: url(https://img.freepik.com/free-photo/tender-african-woman-smiling-enjoying-massage-with-closed-eyes-spa-resort_176420-12933.jpg?t=st=1716814844~exp=1716818444~hmac=8fa5e18e49f582b76b0f82d212ace509a9e90ecdb0e8bfaaddfdf63fbc20ceb6&w=900);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0px;
+}
+
+.CoverLoggingImage{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.FormLog{
+    margin-top: 20px;
+    border: 2px solid grey;
+}
+
+.LoginMe{
+    margin-top: 70px;
+}

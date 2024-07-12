@@ -1,0 +1,12 @@
+.ContactMeImage{
+    background-image: url(https://img.freepik.com/free-photo/front-view-woman-working-spa_23-2150911790.jpg?t=st=1716810477~exp=1716814077~hmac=2249ec97b9e86c744dafe592fdc7d59f37d8d6e32437cd10c6e8e2af4293bfc7&w=360);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.CoverMeBack{
+    background-color: rgba(0, 0, 0, 0.5);
+}

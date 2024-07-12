@@ -1,0 +1,157 @@
+@media screen and (min-width: 1024px) {
+.FormSection{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=1 );
+	height: 120vh;
+}
+
+.BookingInfoConty{
+	margin-top: 80px;
+}
+
+.multistep-container{
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.multistep-container .active-button{
+	display: table;
+	margin: auto;
+	padding-left: 0;
+	overflow:hidden;
+	margin-bottom: 25px;
+}
+
+.multistep-container .active-button li
+{
+	display: inline-block;
+	width: 180px;
+}
+.multistep-container .active-button li .round-btn
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #f9a392;
+	display: block;
+	color: #fff;
+	text-align: center;
+	font-family: 'poppins';
+	font-weight: 500;
+	line-height: 30px;
+	max-width: 100%;
+	margin: auto;
+	position: relative;
+	z-index: 1;
+}
+
+.multistep-container .active-button li.active .round-btn
+{
+	background-color: var(--pink);
+	color: var(--white);
+}
+
+.multistep-container .active-button li:not(:first-child) .round-btn:before
+{
+	position: absolute;
+	content: '';
+	width: 154px;
+	height: 3px;
+	background-color: #f9a392;
+	left: -154px;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: -1;
+}
+.multistep-container .active-button li.active:not(:first-child) .round-btn:before{
+	background-color: var(--pink)
+}
+
+.multistep-container .mutistep-form-area{
+	background-color: var(--white);
+	margin-top: -20px;
+	box-shadow: 0 0 7px rgba(0,0,0,.5);
+	position: relative;
+	overflow:hidden;
+	height: 700px;	
+}
+
+.multistep-container .mutistep-form-area .form-box{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+
+#FormTextHead{
+	font-family: 'montserrat';
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 50px;
+	font-size: 23px;
+	text-align: center;
+} 
+
+.form-group{
+	margin-top: 30px;
+}
+
+#FormyBodyText{
+	margin-top: 70px;
+	text-align: center;
+	font-size: 2em;
+}
+
+.multistep-container .mutistep-form-area .form-box label{
+	font-family: 'roboto';
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.multistep-container .mutistep-form-area .form-box:nth-child(2),
+.multistep-container .mutistep-form-area .form-box:nth-child(3)
+{
+	display: none;
+}
+
+.multistep-container .mutistep-form-area .form-box .button-row .next,
+.multistep-container .mutistep-form-area .form-box .button-row .previous,
+.multistep-container .mutistep-form-area .form-box .button-row .submit
+{
+	background-color: var(--pink);
+	border:0;
+	box-shadow: none;
+	padding: 7px 30px;
+	min-width: 100px;
+	border-radius: 20px;
+	color: var(--white);
+	font-family: 'roboto';
+	font-weight: 500;
+}
+
+.multistep-container .mutistep-form-area .form-box .button-row .submit
+{
+	background-color: var(--purple);
+}
+
+.multistep-container .mutistep-form-area .form-box .button-row
+{
+	display: table;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#FormButtonsBig1{
+	margin-top: 30px;
+	background-color: rgb(55, 55, 163);
+	color: #fff;
+	border-radius: 0%;
+	margin-right: 70px;
+}
+
+#FormButtonsBig2{
+	margin-top: 30px;
+	background-color:green;
+	color: #fff;
+	border-radius: 0%;
+}
+
+}

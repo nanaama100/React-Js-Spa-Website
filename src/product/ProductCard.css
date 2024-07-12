@@ -1,0 +1,93 @@
+@media screen and (min-width: 1024px) {
+      
+      .productCard {
+        text-align: center;
+        border-radius: 0px !important;
+        width: 300px !important;
+        height: 75vh;
+        transition: 0.3s;
+        border: 3px solid #fff;
+        box-shadow: 3px 3px 7px darkgray ; 
+      }
+
+      .productCardContent{
+        margin-top: 10px;
+        justify-content: center;
+        padding: 10px;
+      }
+
+
+    .cardTitle{
+        font-size: 20px;
+    }
+
+    .productCardPrice{
+        font-size: 21px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .product-descript{
+        color: darkgray;
+    }
+
+    .CartIconcard{
+        color: #fff;
+        padding: 10px;
+    }
+
+    .cardButton{
+        margin-top: 15px !important;
+        padding: 7px 10px;
+        color: #fff;
+        background: #f9a392;
+        font-size: 17px;
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        font-family: 'Courier New', Courier, monospace;
+        cursor: pointer;
+    }
+
+    .cardButton:hover{
+        background-color: darkgray;
+    }
+
+
+    .feature-items{
+        margin-top: 40px;
+    }
+
+      .product-buttons {
+        text-align: center;
+      }
+      
+      
+      .product-category-button {
+        background: none;
+        color: #d3d3d3;
+        border: none;
+        padding: 0 20px;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+        font-size: 1.4rem;
+      }
+
+      .product-category-button:hover{
+        color: #fff;
+        background-color: #f9a392;
+      }
+      
+      .product-category-button:not(:last-child) {
+        border-right: 2px solid #d3d3d3;
+      }
+
+      /* Featured */
+  
+  .cardImage {
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    width: 23vw !important;
+    height: 20vw;
+    background-color: white;
+  }
+}

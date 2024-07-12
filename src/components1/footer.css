@@ -1,0 +1,272 @@
+@media screen and (min-width: 1024px) {
+footer {
+    background: #000;
+    color: #aaa;
+    padding-top: 10px;
+    margin-top: 100px;
+  }
+
+  .FooterFlex{
+    display: flex;
+  }
+
+  .AboutSideFooter{
+    margin-left: 90px;
+    width: 200px;
+  }
+
+  .LatestNewsFooter{
+    margin-left: 70px;
+  }
+
+  #footerAbout{
+    display: flex;
+  }
+
+  .iconFooter{
+    font-size: 18px;
+    margin-left: 5px;
+  }
+
+  #footerAboutHeadText{
+    font-size: 20px;
+    font-weight: 700 !important;
+    color: #0894d1;
+    letter-spacing: 1px;
+    margin: 30px 0px 20px;
+  }
+
+ #footerAboutText{
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 5px;
+ }
+
+ .media{
+    display: flex;
+ }
+
+ .media-heading{
+    font-size: 13px;
+    font-weight: 600;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 5px;
+ }
+
+ .media-object{
+    width: 70px;
+ }
+
+ .media-date{
+    font-size: 12px;
+    margin-left: 10px;
+ }
+
+.InformationFooter{
+    margin-left: 90px;
+}
+
+
+.InformationFooter ul li{
+    margin-top: 15px;
+    font-size: 12px;
+}
+ 
+  footer a {
+    color: #aaa;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+  
+ 
+  footer .three-column {
+   overflow: hidden;
+  }
+  
+  footer .three-column li{
+   width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+  }
+  
+  
+  footer .socila-list li {
+    float: left;
+    margin-right: 3px;
+    padding-left: 10px;
+    opacity: 0.7;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  footer .socila-list li:hover {
+    opacity: 1;
+  }
+
+  .GalleryFooter{
+    margin-left: 120px;
+  }
+  
+  footer .img-thumbnail{
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid #444;
+    margin-bottom: 5px;
+    width: 70px;
+  }
+  
+  footer .copyright {
+    padding: 15px 0;
+    background: #000;
+    border-top: 1px solid grey;
+    margin-top: 50px;
+    font-size: 15px;
+  }
+  
+  footer .copyright span {
+    color: #0894d1;
+  }
+}
+
+
+
+
+
+/* this section of the code is for the mobile version */
+@media screen and (max-width: 768px) {
+footer {
+    background: #000;
+    color: #aaa;
+    padding-top: 10px;
+    margin-top: 100px;
+  }
+
+  .FooterFlex{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .AboutSideFooter{
+    margin-left: 70px;
+    width: 200px;
+  }
+
+  .LatestNewsFooter{
+    margin-left: 70px;
+  }
+
+  #footerAbout{
+    display: flex;
+  }
+
+  .iconFooter{
+    font-size: 18px;
+    margin-left: 5px;
+  }
+
+  #footerAboutHeadText{
+    font-size: 24px;
+    font-weight: 700 !important;
+    color: #0894d1;
+    letter-spacing: 1px;
+    margin: 30px 0px 20px;
+  }
+
+ #footerAboutText{
+    margin-left: 25px;
+    font-size: 15px;
+    margin-top: 5px;
+ }
+
+ .media{
+    display: flex;
+ }
+
+ .media-heading{
+    font-size: 13px;
+    font-weight: 600;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 5px;
+ }
+
+ .media-object{
+    width: 70px;
+ }
+
+ .media-date{
+    font-size: 12px;
+    margin-left: 10px;
+ }
+
+.InformationFooter{
+    margin-left: 90px;
+}
+
+
+.InformationFooter ul li{
+    margin-top: 15px;
+    font-size: 17px;
+}
+ 
+  footer a {
+    color: #aaa;
+    font-size: 16px;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+  
+ 
+  footer .three-column {
+   overflow: hidden;
+  }
+  
+  footer .three-column li{
+   width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+  }
+  
+  
+  footer .socila-list li {
+    float: left;
+    margin-right: 3px;
+    padding-left: 10px;
+    opacity: 0.7;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  footer .socila-list li:hover {
+    opacity: 1;
+  }
+
+  .GalleryFooter{
+    margin-left: 90px;
+  }
+  
+  footer .img-thumbnail{
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid #444;
+    margin-bottom: 5px;
+    width: 70px;
+  }
+  
+  footer .copyright {
+    padding: 15px 0;
+    background: #000;
+    border-top: 1px solid grey;
+    margin-top: 50px;
+    font-size: 15px;
+  }
+  
+  footer .copyright span {
+    color: #0894d1;
+  }
+}

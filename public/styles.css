@@ -1,0 +1,178 @@
+html * {
+  font-family: "Playfair Display", serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* .Home {
+  overflow: hidden;
+} */
+
+.section-title {
+  font-weight: bolder;
+  color: #1a374d;
+  font-size: 2.5rem;
+}
+
+.float-button {
+  width: 80px;
+  height: 80px;
+  background: #009879;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  transition: background 0.25s;
+}
+
+.float-button:active {
+  background: #007063;
+}
+
+.float-button:hover {
+  color: #fef9ef;
+}
+
+
+.button-container {
+  text-align: center;
+}
+
+
+
+/* Overview */
+.overview-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh 0 2vh 0;
+  background-color: #d5eeff;
+  border-top-left-radius: 15vw;
+  border-bottom-right-radius: 15vw;
+}
+
+.overview-title {
+  text-align: center;
+  padding: 30px 0 50px;
+}
+
+.overview-container div {
+  width: 100%;
+}
+
+.overview-image {
+  width: 20vw;
+  height: 25vw;
+  border-radius: 40px;
+  margin-left: 20vw;
+  min-width: 180px;
+  min-height: 220px;
+}
+
+.ov-img-2 {
+  margin-left: 4vw;
+}
+
+.oc-2 {
+  padding-left: 7vw !important;
+}
+
+.overview-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5vw 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .overview-item {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+  }
+  .overview-image {
+    margin: 0;
+    width: 90%;
+    height: 500px;
+  }
+  .ov-img-2 {
+    order: 1;
+  }
+
+  .oc-2 {
+    order: 2;
+  }
+  .overview-content {
+    padding: 40px 35px !important;
+  }
+}
+
+.overview-content {
+  padding: 0 5vw 0 20px;
+}
+
+.ov-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.ov-content {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+
+
+@media only screen and (max-width: 575px) {
+  .contact-info {
+    letter-spacing: 1px !important;
+  }
+}
+
+
+.contact-info {
+  font-size: calc(9px + 1vw);
+  padding: 1vw 0 0 0;
+  letter-spacing: 3px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.order-success,
+.order-success:hover,
+.order-success:active,
+.order-success:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.order-success-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 150px;
+}
+
