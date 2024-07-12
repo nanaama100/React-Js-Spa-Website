@@ -11,7 +11,7 @@ function ContactPage() {
    <div className='ContactSection'>
         <div>
             <h2 id='SpaHeading'>CONTACT US</h2>
-            <img src='/public/Images/BackgroundNew1.jpg' alt='' className='AboutBackgroundImage'/>
+            <img src='/Images/BackgroundNew1.jpg' alt='' className='AboutBackgroundImage'/>
       </div>
       <div id='BookSubContyBacky'>
         <div id='CoverContactBacky'>
