@@ -47,7 +47,7 @@ function About() {
     <div>
       <div>
         <h2 id='SpaHeading'>OUR SPA</h2>
-        <img src='/public/Images/BackgroundNew1.jpg' alt='' className='AboutBackgroundImage'/>
+        <img src='/Images/BackgroundNew1.jpg' alt='' className='AboutBackgroundImage'/>
       </div>
        <section>
           
